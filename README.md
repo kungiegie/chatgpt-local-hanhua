@@ -1,3 +1,9 @@
+# QQ群二维码，有问题可前往此QQ群进行询问
+
+
+<img width="1348" height="2397" alt="QQ群" src="https://github.com/user-attachments/assets/b38ea8ef-b443-497f-83dd-3cff6c69fece" />
+
+
 # Codex 中文界面（免梯子）· 部署包
 
 把这个文件夹整个拷贝到朋友的电脑上（随便放哪都行，比如桌面）。只需 **3 个文件**。
