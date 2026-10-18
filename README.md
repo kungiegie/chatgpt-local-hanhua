@@ -18,10 +18,11 @@
 ## 操作步骤（朋友电脑上）
 
 1. 把本文件夹拷过去（可用 U 盘 / 微信 / 网盘传）。
-2. **双击** `启动Codex中文.bat`。
-3. 如果 Codex 没开，脚本会自动启动它并等它就绪（首次约 10-30 秒）。
-4. 脚本自动注入并重载，日志出现中文关键词、`enHits:0` 即成功。
-5. 关闭 Codex 后重新打开，**仍是中文**（缓存已写入本地，无需再联网/梯子）。
+2. 后台退出Codex，**双击** `启动Codex中文.bat`。
+3. 脚本自动注入并重载，日志出现中文关键词、`enHits:0` 即成功。
+4. 当运行.bat弹出显示"按任意键退出"时再退出弹窗。
+5. 以后再次启动codex时仍然需要运行.bat启动，.bat会自动检查codex路径无需担心。
+6. 可以将.bat创建快捷方式到桌面作为以后的codex的启动方式
 
 ## 常见问题
 
@@ -31,7 +32,6 @@
   set CODEX_MSIX_ROOT=C:\Program Files\WindowsApps\OpenAI.Codex_26.1013.3656.0_x64__2p2nqsd0c76g0
   ```
   （路径里的版本号以你电脑实际安装的为准，用 PowerShell 查：`Get-AppxPackage OpenAI.Codex | Select InstallLocation`）
-* **界面还是英文** → 把 `start-zh.bat` 窗口里打印的日志截图发回来，据此排查。
 * **想还原成英文** → 在 Codex 里删掉本地缓存目录（`...\LocalCache\Roaming\Codex\web\Codex\Default\Local Storage`）或重装应用即可。
 
 ## 原理（简要）
