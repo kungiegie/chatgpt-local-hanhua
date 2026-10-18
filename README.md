@@ -1,7 +1,8 @@
 # QQ群二维码，有问题可前往此QQ群进行询问
 
 
-<img width="1348" height="2397" alt="QQ群" src="https://github.com/user-attachments/assets/b38ea8ef-b443-497f-83dd-3cff6c69fece" />
+<img width="337" height="599" alt="output" src="https://github.com/user-attachments/assets/0b5eb30e-78d5-444d-b52c-73d75c78796e" />
+
 
 
 # Codex 中文界面（免梯子）· 部署包
